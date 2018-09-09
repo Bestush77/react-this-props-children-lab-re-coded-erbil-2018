@@ -2,7 +2,7 @@ import React from 'react';
 
  class ThemedDecorations extends React.Component {
   render(){
-    childrenWithExtraProp = React.children.map(this.children.prop, child => React.cloneElement())
+    childrenWithExtraProp = React.children.map(this.children.prop, child => React.cloneElement(child, ))
     return(
       
       )
