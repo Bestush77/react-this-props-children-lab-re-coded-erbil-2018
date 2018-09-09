@@ -4,7 +4,9 @@ import React from 'react';
   render(){
     childrenWithExtraProp = React.children.map(this.children.prop, child => React.cloneElement(child, {className:this.props.theme}));
     return(
-      
+      <div>
+      {childrenWithExtraProp}
+      </div>
       );
   }
 }
