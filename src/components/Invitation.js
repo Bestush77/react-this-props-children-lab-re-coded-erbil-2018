@@ -1,3 +1,9 @@
 import React from 'react';
 
-export default class Invitation
+default class Invitation extends React.Component {
+  render(){
+    return(
+      
+      )
+  }
+}
