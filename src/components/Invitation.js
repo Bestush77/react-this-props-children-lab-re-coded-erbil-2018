@@ -1,6 +1,6 @@
 import React from 'react';
 
-default class Invitation extends React.Component {
+ class Invitation extends React.Component {
   render(){
     return(
       <div>
@@ -10,3 +10,5 @@ default class Invitation extends React.Component {
       )
   }
 }
+
+export default Invitation;
